@@ -4,8 +4,12 @@ To run the speedtest script directly from this repository on a Windows machine, 
 
 ```powershell
 Invoke-WebRequest -Uri "https://github.com/mxmihai/scripts/speedtest10.ps1" -UseBasicParsing | Invoke-Expression
+```
 
 or the shorter alias version:
 
 ```powershell
 iwr "https://github.com/mxmihai/scripts/speedtest10.ps1" -UseBasicParsing | iex
+```
+
+Have fun!
